@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    /* padding: 50px; */
+
+    /* make it look decent enough */
+    background: #111111;
+    color: #ffffff;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+
+    overflow-x: hidden; /* needed because hiding the menu on the right side is not perfect,  */
+}
+/* ============================================CUSTOM SCROLLBAR================================================== */
+
+ /* width */
+::-webkit-scrollbar {
+    width: 0.4%;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+}
+  
+/* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: rgb(196, 196, 196); 
+}
+
+/* -----firefox---- */
+:root{
+    scrollbar-width: thin;
+    scrollbar-color: #ffffff;
+}
+
+
+/* =====================================================NAVBAR===================================================== */
+header{
+    position: sticky;
+    top: 30px;
+    margin: 30px;
+    background: #111111;
+    /* filter: blur(4px); */
+}
+
+.container{
+    display: flex;
+    background: #111111;
+    /* background: blue; */
+    
+}
+
+.box {
+    margin-top: 0;
+    margin: 0.1%;
+    
+}
+
+/* .logo{
+    margin: 50px;
+} */
+
+
+.center {
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#desc {
+    margin: auto !important;
+    font-weight: 400;
+    text-align: center !important;
+    font-size: 12pt;
+}
+
+/* ========================================================================================================== */
+/* #projects{
+    margin-top: 10%;
+    margin-left: 15%;
+    
+}
+
+#graphic-design{
+    display: flex;
+}
+
+#graphic-design img{
+    top: 0;
+    
+}
+
+#rectangle2{
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+#list-design{
+    padding-top: 6%;
+}
+
+#list-design li{
+    list-style-type: none;
+    margin-bottom: 5.8%;
+}
+
+#design-photos{
+    display: flex;
+    
+} */
+
+/* responsive */
+/* 2k */
+/* @media (max-width: 1440px){
+    
+} */
+
+/* 1366x768 */
+/* @media (max-width: 1366px){
+    #desc {
+        bottom: 28%;
+        right: 34%;
+    }
+} */
